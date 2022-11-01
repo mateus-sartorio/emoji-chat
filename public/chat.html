@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/styles.css">
+    <title>Live Chat</title>
+</head>
+<body>
+    <div class="container2">
+        <header class="header2">
+            <h1><i class="italic"><span id="smile">&#9787;</span>LiveChat</i></h1>
+            <a href="./index.html" class="button2">Leave Room</a>
+        </header>
+        <main class="chat">
+            <div class="sidebar">
+                <h3><i class="italic" id="users">Users</i></h3>
+                <ul id="userList"></ul>
+            </div>
+            <div class="chat-messages"></div>
+        </main>
+        <div class="form2">
+            <form class="chat" id="chat">
+                <input 
+                    type="text"
+                    id="message"
+                    placeholder="Enter message"
+                    required
+                    autocomplete="off">
+                <button id="button2"><i class="italic">Send</i></button>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.9.6/qs.min.js" integrity="sha512-3TmPrquYLaAsUmZKXRARTDC5siWhLAdBVqNo4dWpDABBtLU62AaoTaQJEvjxjExcZYurO6i1dnK85k8pPIBlRg==" crossorigin="anonymous"></script>
+    <script src="./socket.io/socket.io.js"></script>
+    <script type="text/javascript" src="./JavaScript/main.js"></script>
+    
+</body>
+</html>

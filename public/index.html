@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/styles.css">
+    <title>LiveChat</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1><i class="italic">LiveChat<span id="smile">&#9787;</span></i></h1>
+        </header>
+        <main class="main">
+            <form action="chat.html">
+                <div class="form">
+                    <label for="username">Username</label>
+                    <br>
+                    <input
+                        type="text"
+                        name="username"
+                        id="username"
+                        placeholder="Enter the username"
+                        required
+                        autocomplete="off">
+                </div>
+                <br>
+                <div class="form">
+                    <label for="emoji">Select an emoji</label>
+                    <br>
+                    <select name="emoji" id="emoji">
+                        <option value="😖">😖</option>
+                        <option value="😶">😶</option>
+                        <option value="👺">👺</option>
+                        <option value="💀">💀</option>
+                        <option value="🤮">🤮</option>
+                        <option value="😑">😑</option>
+                    </select>
+                </div>
+                <br>
+                <button type="submit" class="button">Join Chat</button>
+            </form>
+        </main>        
+    </div>
+</body>
+</html>

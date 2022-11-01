@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.container {
+    margin-top: 100px;
+    margin-left: 100px;
+    width: 400px;
+    display: block;
+    border-radius: 100px;
+}
+
+.header {
+    margin: 0 0;
+    background: #2d6a4f;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+}
+
+.main {
+    background: #40916c;
+    padding: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.header > h1 {
+    font-weight: 450;
+    display: inline;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.italic {
+    font-style: normal;
+}
+
+#icon1 {
+    width: 48px;
+}
+
+img {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.button {
+    color: #40916c;
+    width: 350px;
+    height: 25px;
+}
+
+#username {
+    color: black;
+    width: 343px;
+    height: 18px;
+}
+
+#emoji {
+    color: black;
+    width: 350px;
+    height: 25px;
+}
+
+#smile {
+    font-size: 40px;
+}
+
+option {
+    color: black;
+}
+
+
+
+.container2 {
+    width: 864px;
+    height: 486px;
+    background: #95d5b2;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.header2 {
+    background: #2d6a4f;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 50px;
+}
+
+.header2 > a {
+    display: inline;
+    background: white;
+    text-decoration: none;
+    color: #40916c;
+    padding: 4px 10px;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+    left: 570px;
+    top: -8px;
+    font-weight: 450;
+}
+
+.header2 > h1{
+    text-align: left;
+    display: inline;
+    font-weight: 450;
+    position: relative;
+    left: 10px;
+    top: -2px;
+}
+
+.button2 {
+    text-align: right;
+    display: block;
+    color: black;
+}
+
+.sidebar {
+    background: #52b788;
+    display: inline-block;
+    width: 170px;
+    height: 436px;
+    text-align: left;
+    padding: 0px 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.messages {
+    background: #1b4332;
+    display: inline-block;
+    width: 580px;
+    height: 70px;
+    position: relative;
+    left: 30px;
+    top: 10px;
+    border-radius: 10px;
+    padding: 0px 10px 13px 15px;
+    margin: 3px 0px;
+}
+
+.form2 {
+    display: inline-block;
+    background: #2d6a4f;
+    padding: 10px;
+    width: 844px;
+    height: 48px;
+    position: absolute;
+    top: 426px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#message {
+    width: 720px;
+    height: 30px;
+    position: relative;
+    top: 4px;
+    left: 8px;
+    border-radius: 5px;
+    background: white;
+    border: 0;
+    padding: 0;
+    padding-left: 10px;
+    margin: 0;
+
+}
+
+#button2 {
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    width: 80px;
+    height: 40px;
+    position: relative;
+    top: 5px;
+    left: 20px;
+    background: white;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    border-radius: 10px;
+}
+
+ul {
+    list-style: none;
+    position: relative;
+    left: -30px;
+    top: -10px;
+}
+
+.ul {
+    list-style: none;
+    position: relative;
+    left: -30px;
+    top: -10px;
+}
+
+.sidebar > h3 {
+    font-weight: 450;
+    position: relative;
+    left: 5px;
+}
+
+#users {
+    position: relative;
+    top: 0px;
+}
+
+.chat-messages {
+    width: 674px;
+    height: 368px;
+    position: absolute;
+    left: 198px;
+    top: 58px;
+    overflow-y: scroll;
+}
+
+.text {
+    width: 570px;
+    overflow: hidden;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+    background: #cad2c5;
+    border-radius: 10px;
+    margin: 5px 0;
+}
+  
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #354f52;
+    border-radius: 10px;
+}
+  
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #2f3e46;
+}
